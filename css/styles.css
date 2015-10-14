@@ -1,0 +1,75 @@
+
+body {
+	padding: 40px;
+	text-align: left;
+	background-color: rgba(239, 222, 193, .5);
+	color: #A24E04;
+	text-align: left;
+	margin-left: 5%;
+}
+
+header {
+	text-align: center;
+	padding-bottom: 25px;
+}
+*:focus {
+  outline: none;
+}
+
+#todoItems > li {
+	padding: 10px;
+
+}
+
+#todoItems > li > #delete {
+	float: right;
+	border-radius: 5px;
+	border: 1px solid black;
+	background-color: rgba(61, 59, 56, .2);
+	text-align: center;
+	color: rgb(162, 78, 4);
+	font-family: Myriad Pro;
+	margin-right: 15%;
+}
+
+input, textarea {
+	height: 20px;
+	width: 150px;
+    -webkit-transition: width 1s ease;
+    -moz-transition: width 1s ease;
+    -o-transition: width 1s ease;
+    -ms-transition: width 1s ease;
+    transition: width 1s ease;
+}
+
+#toggle {
+	display: none;
+}
+
+input:focus, textarea:focus {
+    width: 200px;
+		height: 30px;
+}
+
+body, p { font-size: 20px; }
+
+#todoItems li.completed {
+	text-decoration: line-through;
+}
+
+#todoItems {
+	list-style: none;
+}
+
+#newTodoItem {
+  text-align: center;
+	border-radius: 5px;
+	border-bottom-width: 6px;
+	margin-left: 40%;
+}
+
+button {
+	font-size: 12px;
+	height: 15px;
+	text-align: center;
+}
